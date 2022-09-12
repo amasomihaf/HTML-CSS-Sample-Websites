@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi University Pages</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="course-header">
+        <nav>
+            <a href="index.html"><img src="/image/Logo.png" alt="error"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <h1>Our Curriculum</h1>
+    </section>
+
+    <!-------Curriculum----------->
+    <section class="course">
+        <h1>Course's <span>We</span> Provide</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit numquam maxime quaerat ipsum,
+                    quibusdam omnis quae. Illo placeat, possimus eveniet quis, quia qui inventore distinctio quos
+                    tempora aspernatur sequi.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit numquam maxime quaerat ipsum,
+                    quibusdam omnis quae. Illo placeat, possimus eveniet quis, quia qui inventore distinctio quos
+                    tempora aspernatur sequi.</p>
+            </div>
+            <div class="course-col">
+                <h3>Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit numquam maxime quaerat ipsum,
+                    quibusdam omnis quae. Illo placeat, possimus eveniet quis, quia qui inventore distinctio quos
+                    tempora aspernatur sequi.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit numquam maxime quaerat ipsum,
+                    quibusdam omnis quae. Illo placeat, possimus eveniet quis, quia qui inventore distinctio quos
+                    tempora aspernatur sequi.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!----------Facilities---------->
+    <section class="facilities">
+        <h1>Our <span>Good</span> Facilites</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="/image/library.jpg">
+                <h3>World <span>First-Class</span> Library</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A fugit explicabo eligendi provident animi
+                    voluptatum!</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="/image/basketball.jpg">
+                <h3>Biggest <span>Play</span> Ground</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A fugit explicabo eligendi provident animi
+                    voluptatum!</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="/image/cafeteria.jpg">
+                <h3>Healthy <span>& Tasty</span> Food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A fugit explicabo eligendi provident animi
+                    voluptatum!</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!---------Footer-------->
+    <section class="footer">
+        <h1>About Us</h1>
+        <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ut accusantium repellat sint aliquam, <br>ipsam, saepe ratione et esse facere autem officiis dolore iusto vitae eveniet blanditiis numquam architecto veritatis!</p1>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-github"></i>
+        </div>
+        <p2>Made with <i class="fa fa-heart-o"></i> By Amaso Mihaf</p2>
+    </section>
+    <section class="copyrights">
+        <p1>&copy; Copyright 2022 Amaso Mihaf
+        </p1>
+    </section>
+
+</body>
+<!-------Javascript for Toggle Menu------->
+<script>
+    let navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        console.log(navLinks.style.right = "0");
+    }
+    function hideMenu() {
+        console.log(navLinks.style.right = "200px");
+    }
+</script>
+
+</html>
